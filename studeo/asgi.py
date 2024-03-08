@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
 
 import os
 import django
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfectlov.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'studeo.settings')
 django.setup()
 
 from app import routing
